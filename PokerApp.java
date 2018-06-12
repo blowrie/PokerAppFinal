@@ -29,7 +29,7 @@ class PokerApp {
 		//setting the count variables to zero allows them to be used correctly each time
 		
 // Game Intro Section
-		System.out.println("Welcome to the poker: texas holdem. press enter to deal the cards.");
+		System.out.println("Welcome to poker: texas holdem. press enter to deal the cards.");
 		Scanner scan = new Scanner(System.in);
 		scan.nextLine(); 
 //Begins when user keys enter
@@ -300,7 +300,7 @@ class PokerApp {
 				}
 		}	
 	 }
-//Allows the user to run the program again with new cards or type "done" which ends the gam	
+//Allows the user to run the program again with new cards or type "done" which ends the game	
 	System.out.println("\nPlay again? Type 'done' if finished");
 	done = scan.nextLine().toLowerCase();
 	}while(!"done".equals(done));
